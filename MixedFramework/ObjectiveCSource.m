@@ -2,7 +2,7 @@
 
 @implementation ObjectiveCSource
 
-- (void)helloFromObjectiveC {
++ (void)helloFromObjectiveC {
     NSLog(@"hello from Objective-C");
 }
 

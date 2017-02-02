@@ -2,6 +2,6 @@
 
 @interface ObjectiveCSource : NSObject
 
-- (void)helloFromObjectiveC;
++ (void)helloFromObjectiveC;
 
 @end
