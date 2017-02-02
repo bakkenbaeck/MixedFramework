@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		14067EE81E437B1C006316E4 /* MixedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 14067EE61E437B1C006316E4 /* MixedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14067EEF1E437B34006316E4 /* SwiftSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14067EEE1E437B34006316E4 /* SwiftSource.swift */; };
-		14067EF21E437B42006316E4 /* ObjectiveCSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 14067EF01E437B42006316E4 /* ObjectiveCSource.h */; };
+		14067EF21E437B42006316E4 /* ObjectiveCSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 14067EF01E437B42006316E4 /* ObjectiveCSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14067EF31E437B42006316E4 /* ObjectiveCSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 14067EF11E437B42006316E4 /* ObjectiveCSource.m */; };
+		14067EF51E437D47006316E4 /* SwiftSource.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14067EEE1E437B34006316E4 /* SwiftSource.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 			files = (
 				14067EE81E437B1C006316E4 /* MixedFramework.h in Headers */,
 				14067EF21E437B42006316E4 /* ObjectiveCSource.h in Headers */,
+				14067EF51E437D47006316E4 /* SwiftSource.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +309,7 @@
 				14067EED1E437B1C006316E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
