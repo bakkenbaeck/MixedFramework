@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		14067EE81E437B1C006316E4 /* MixedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 14067EE61E437B1C006316E4 /* MixedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14067EEF1E437B34006316E4 /* SwiftSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14067EEE1E437B34006316E4 /* SwiftSource.swift */; };
+		14067EF21E437B42006316E4 /* ObjectiveCSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 14067EF01E437B42006316E4 /* ObjectiveCSource.h */; };
+		14067EF31E437B42006316E4 /* ObjectiveCSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 14067EF11E437B42006316E4 /* ObjectiveCSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14067EE31E437B1B006316E4 /* MixedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MixedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14067EE61E437B1C006316E4 /* MixedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixedFramework.h; sourceTree = "<group>"; };
 		14067EE71E437B1C006316E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14067EEE1E437B34006316E4 /* SwiftSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSource.swift; sourceTree = "<group>"; };
+		14067EF01E437B42006316E4 /* ObjectiveCSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCSource.h; sourceTree = "<group>"; };
+		14067EF11E437B42006316E4 /* ObjectiveCSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,9 @@
 			children = (
 				14067EE61E437B1C006316E4 /* MixedFramework.h */,
 				14067EE71E437B1C006316E4 /* Info.plist */,
+				14067EEE1E437B34006316E4 /* SwiftSource.swift */,
+				14067EF01E437B42006316E4 /* ObjectiveCSource.h */,
+				14067EF11E437B42006316E4 /* ObjectiveCSource.m */,
 			);
 			path = MixedFramework;
 			sourceTree = "<group>";
@@ -60,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14067EE81E437B1C006316E4 /* MixedFramework.h in Headers */,
+				14067EF21E437B42006316E4 /* ObjectiveCSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +105,7 @@
 				TargetAttributes = {
 					14067EE21E437B1B006316E4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14067EF31E437B42006316E4 /* ObjectiveCSource.m in Sources */,
+				14067EEF1E437B34006316E4 /* SwiftSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +252,7 @@
 		14067EEC1E437B1C006316E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -250,6 +264,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bakkenbaeck.MixedFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -257,6 +272,7 @@
 		14067EED1E437B1C006316E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
