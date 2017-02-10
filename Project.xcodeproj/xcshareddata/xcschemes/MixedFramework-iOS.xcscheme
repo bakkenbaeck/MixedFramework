@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14067EE21E437B1B006316E4"
                BuildableName = "MixedFramework.framework"
-               BlueprintName = "MixedFramework"
-               ReferencedContainer = "container:MixedFramework.xcodeproj">
+               BlueprintName = "MixedFramework-iOS"
+               ReferencedContainer = "container:Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,8 +47,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14067EE21E437B1B006316E4"
             BuildableName = "MixedFramework.framework"
-            BlueprintName = "MixedFramework"
-            ReferencedContainer = "container:MixedFramework.xcodeproj">
+            BlueprintName = "MixedFramework-iOS"
+            ReferencedContainer = "container:Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,8 +65,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14067EE21E437B1B006316E4"
             BuildableName = "MixedFramework.framework"
-            BlueprintName = "MixedFramework"
-            ReferencedContainer = "container:MixedFramework.xcodeproj">
+            BlueprintName = "MixedFramework-iOS"
+            ReferencedContainer = "container:Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

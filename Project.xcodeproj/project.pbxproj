@@ -86,9 +86,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14067EE21E437B1B006316E4 /* MixedFramework */ = {
+		14067EE21E437B1B006316E4 /* MixedFramework-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14067EEB1E437B1C006316E4 /* Build configuration list for PBXNativeTarget "MixedFramework" */;
+			buildConfigurationList = 14067EEB1E437B1C006316E4 /* Build configuration list for PBXNativeTarget "MixedFramework-iOS" */;
 			buildPhases = (
 				14067EDE1E437B1B006316E4 /* Sources */,
 				14067EDF1E437B1B006316E4 /* Frameworks */,
@@ -99,7 +99,7 @@
 			);
 			dependencies = (
 			);
-			name = MixedFramework;
+			name = "MixedFramework-iOS";
 			productName = MixedFramework;
 			productReference = 14067EE31E437B1B006316E4 /* MixedFramework.framework */;
 			productType = "com.apple.product-type.framework";
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14067EDD1E437B1B006316E4 /* Build configuration list for PBXProject "MixedFramework" */;
+			buildConfigurationList = 14067EDD1E437B1B006316E4 /* Build configuration list for PBXProject "Project" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14067EE21E437B1B006316E4 /* MixedFramework */,
+				14067EE21E437B1B006316E4 /* MixedFramework-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bakkenbaeck.MixedFramework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MixedFramework;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -294,7 +294,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bakkenbaeck.MixedFramework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MixedFramework;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14067EDD1E437B1B006316E4 /* Build configuration list for PBXProject "MixedFramework" */ = {
+		14067EDD1E437B1B006316E4 /* Build configuration list for PBXProject "Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14067EE91E437B1C006316E4 /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14067EEB1E437B1C006316E4 /* Build configuration list for PBXNativeTarget "MixedFramework" */ = {
+		14067EEB1E437B1C006316E4 /* Build configuration list for PBXNativeTarget "MixedFramework-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14067EEC1E437B1C006316E4 /* Debug */,
