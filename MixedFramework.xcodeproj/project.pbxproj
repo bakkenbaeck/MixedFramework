@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14067EE81E437B1C006316E4 /* MixedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 14067EE61E437B1C006316E4 /* MixedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14067EEF1E437B34006316E4 /* SwiftSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14067EEE1E437B34006316E4 /* SwiftSource.swift */; };
-		14067EF21E437B42006316E4 /* ObjectiveCSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 14067EF01E437B42006316E4 /* ObjectiveCSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14067EF31E437B42006316E4 /* ObjectiveCSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 14067EF11E437B42006316E4 /* ObjectiveCSource.m */; };
-		14067EF51E437D47006316E4 /* SwiftSource.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14067EEE1E437B34006316E4 /* SwiftSource.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		14290D551E4E606300421713 /* MixedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 14290D511E4E606300421713 /* MixedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14290D561E4E606300421713 /* ObjectiveCSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 14290D521E4E606300421713 /* ObjectiveCSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14290D571E4E606300421713 /* ObjectiveCSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 14290D531E4E606300421713 /* ObjectiveCSource.m */; };
+		14290D581E4E606300421713 /* SwiftSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14290D541E4E606300421713 /* SwiftSource.swift */; };
+		14290D591E4E620300421713 /* SwiftSource.swift in Headers */ = {isa = PBXBuildFile; fileRef = 14290D541E4E606300421713 /* SwiftSource.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14067EE31E437B1B006316E4 /* MixedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MixedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14067EE61E437B1C006316E4 /* MixedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixedFramework.h; sourceTree = "<group>"; };
 		14067EE71E437B1C006316E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14067EEE1E437B34006316E4 /* SwiftSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSource.swift; sourceTree = "<group>"; };
-		14067EF01E437B42006316E4 /* ObjectiveCSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCSource.h; sourceTree = "<group>"; };
-		14067EF11E437B42006316E4 /* ObjectiveCSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCSource.m; sourceTree = "<group>"; };
+		14290D511E4E606300421713 /* MixedFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedFramework.h; sourceTree = "<group>"; };
+		14290D521E4E606300421713 /* ObjectiveCSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCSource.h; sourceTree = "<group>"; };
+		14290D531E4E606300421713 /* ObjectiveCSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCSource.m; sourceTree = "<group>"; };
+		14290D541E4E606300421713 /* SwiftSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,8 @@
 		14067ED91E437B1B006316E4 = {
 			isa = PBXGroup;
 			children = (
-				14067EE51E437B1B006316E4 /* MixedFramework */,
+				14290D501E4E604D00421713 /* Sources */,
+				14067EE51E437B1B006316E4 /* Others */,
 				14067EE41E437B1B006316E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,16 +51,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14067EE51E437B1B006316E4 /* MixedFramework */ = {
+		14067EE51E437B1B006316E4 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				14067EE61E437B1C006316E4 /* MixedFramework.h */,
 				14067EE71E437B1C006316E4 /* Info.plist */,
-				14067EEE1E437B34006316E4 /* SwiftSource.swift */,
-				14067EF01E437B42006316E4 /* ObjectiveCSource.h */,
-				14067EF11E437B42006316E4 /* ObjectiveCSource.m */,
 			);
-			path = MixedFramework;
+			path = Others;
+			sourceTree = "<group>";
+		};
+		14290D501E4E604D00421713 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				14290D511E4E606300421713 /* MixedFramework.h */,
+				14290D521E4E606300421713 /* ObjectiveCSource.h */,
+				14290D531E4E606300421713 /* ObjectiveCSource.m */,
+				14290D541E4E606300421713 /* SwiftSource.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -69,9 +77,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14067EE81E437B1C006316E4 /* MixedFramework.h in Headers */,
-				14067EF21E437B42006316E4 /* ObjectiveCSource.h in Headers */,
-				14067EF51E437D47006316E4 /* SwiftSource.swift in Headers */,
+				14290D561E4E606300421713 /* ObjectiveCSource.h in Headers */,
+				14290D551E4E606300421713 /* MixedFramework.h in Headers */,
+				14290D591E4E620300421713 /* SwiftSource.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14067EF31E437B42006316E4 /* ObjectiveCSource.m in Sources */,
-				14067EEF1E437B34006316E4 /* SwiftSource.swift in Sources */,
+				14290D571E4E606300421713 /* ObjectiveCSource.m in Sources */,
+				14290D581E4E606300421713 /* SwiftSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +268,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MixedFramework/Info.plist;
+				INFOPLIST_FILE = Others/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -281,7 +289,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MixedFramework/Info.plist;
+				INFOPLIST_FILE = Others/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
